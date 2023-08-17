@@ -36,7 +36,8 @@ xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xs
                     <source>1.7</source>
                     <target>1.7</target>
 					<encoding>utf-8</encoding>
-			        <failOnMissingWebXml>false</failOnMissingWebXml>
+			  <webXml>src/main/webapp/WEB-INF/web.xml</webXml>
+			        <failOnMissingWebXml>ture</failOnMissingWebXml>
                 </configuration>
             </plugin>
         </plugins>
