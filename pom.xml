@@ -45,7 +45,5 @@
 	</build>
 
 	<!-- 내장 톰캣 제외 -->
-	<properties>
-		<spring-boot.repackage.skip>true</spring-boot.repackage.skip>
-	</properties>
+	
 </project>
